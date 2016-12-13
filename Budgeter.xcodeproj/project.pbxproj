@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A80CF72B1DFFB3C7006A5D9B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80CF72A1DFFB3C7006A5D9B /* TableViewController.swift */; };
 		A87D850A1DCEB9E100969D4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D85091DCEB9E100969D4E /* AppDelegate.swift */; };
 		A87D850C1DCEB9E100969D4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D850B1DCEB9E100969D4E /* ViewController.swift */; };
 		A87D850F1DCEB9E100969D4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87D850D1DCEB9E100969D4E /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A80CF72A1DFFB3C7006A5D9B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		A87D85061DCEB9E100969D4E /* Budgeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budgeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87D85091DCEB9E100969D4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A87D850B1DCEB9E100969D4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				A87D85151DCEB9E100969D4E /* LaunchScreen.storyboard */,
 				A87D85181DCEB9E100969D4E /* Info.plist */,
 				A87D85101DCEB9E100969D4E /* Budgeter.xcdatamodeld */,
+				A80CF72A1DFFB3C7006A5D9B /* TableViewController.swift */,
 			);
 			path = Budgeter;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				A87D850C1DCEB9E100969D4E /* ViewController.swift in Sources */,
 				A87D85121DCEB9E100969D4E /* Budgeter.xcdatamodeld in Sources */,
 				A87D850A1DCEB9E100969D4E /* AppDelegate.swift in Sources */,
+				A80CF72B1DFFB3C7006A5D9B /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +511,7 @@
 				A87D85331DCEB9E200969D4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A87D85341DCEB9E200969D4E /* Build configuration list for PBXNativeTarget "BudgeterTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				A87D85361DCEB9E200969D4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A87D85371DCEB9E200969D4E /* Build configuration list for PBXNativeTarget "BudgeterUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				A87D85391DCEB9E200969D4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
