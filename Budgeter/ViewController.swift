@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         }
         else {
             print("ran out of time")
-            fatalError()
+            //fatalError()
         }
     }
 
