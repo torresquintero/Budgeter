@@ -1,1 +1,51 @@
 /* CSS declarations go here */
+
+body {
+  background: url("/images/Heirloom-RdM.jpg") no-repeat center center fixed;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(59,59,59, 0.8); /* #3B3B3B */
+  font-size: 70%;
+  display: flex;
+  flex-flow: row;
+}
+
+#hamburger-icon {
+  height: 20px;
+  margin: 12px;
+  margin-bottom: 8px; /* bottom should be 4 less than normal margin */
+}
+
+#feed-selectors-wrapper {
+  display: inline-block;
+  flex: auto;
+  display: flex;
+}
+
+.feed-selector {
+  display: inline-block;
+  text-align: center;
+  flex: auto;
+  background-color: rgba(153,0,0, 0.8); /* #990000 */
+}
+
+.feed-selector:not(:last-child) {
+  border-right: solid 1px #3B3B3B; /* rgb(59,59,59) */
+}
+
+.feed-selector img {
+  height: 18px;
+  padding: 12px 5px 5px 5px;
+}
+
+.feed-selector-text {
+  line-height: 43px;
+}

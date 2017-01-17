@@ -199,6 +199,7 @@
 				TargetAttributes = {
 					A87D85051DCEB9E100969D4E = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8D6V936992;
 						ProvisioningStyle = Automatic;
 					};
 					A87D851C1DCEB9E200969D4E = {
@@ -418,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8D6V936992;
 				INFOPLIST_FILE = Budgeter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ysecs.org.Budgeter;
@@ -430,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8D6V936992;
 				INFOPLIST_FILE = Budgeter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ysecs.org.Budgeter;
